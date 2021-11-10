@@ -14,5 +14,8 @@ class FizzBuzzTests {
 	void buzzTest() {
 		assertEquals("Buzz",FizzBuzz.check(5));
 	}
-
+	@Test
+	void fizzBuzzTest() {
+		assertEquals("FizzBuzz",FizzBuzz.check(15));
+	}
 }

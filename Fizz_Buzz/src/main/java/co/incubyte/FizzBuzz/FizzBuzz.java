@@ -7,8 +7,9 @@ public class FizzBuzz {
       return "FizzBuzz";
     }else if((i%5)==0){
       return "Buzz";
-    }else{
+    }else if((i % 3==0)){
       return "Fizz";
     }
+    return "NoFizzBuzz";
   }
 }
